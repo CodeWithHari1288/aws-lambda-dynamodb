@@ -1,0 +1,9 @@
+Virtual hosted-style dual-stack endpoint:
+
+bucketname.s3.dualstack.aws-region.amazonaws.com
+
+ 
+
+Path-style dual-stack endpoint:
+
+s3.dualstack.aws-region.amazonaws.com/bucketname
