@@ -29,7 +29,8 @@ export class DynamoDbDmlStack extends Stack {
         partitionKey: {
           name: "id",
           type: AttributeType.STRING
-        }
+        },
+    
       });
 
       dynamoDBTable.grantReadWriteData(lambdaS3)
